@@ -7,5 +7,21 @@
   position: relative;
   .top-barrage-wrapper {
     position: absolute;
+    top: 0px;
+    width: 100%;
+    left: 0px;
+    .barrage-channels {
+      position: relative;
+      width: 100%;
+      height: 200px;
+      overflow: hidden;
+    }
+    .barrage-item {
+      display: inline-block;
+      height: 40px;
+      line-height: 40px;
+      position: absolute;
+      font-size: 14px;
+    }
   }
 }
